@@ -18,3 +18,8 @@ Cadastro de usuário e envio de e-mail de confirmação de cadastro como tarefa 
 -   Executar `yarn` ou ` install` npm para instalar as dependências
 -   Copie o arquivo `.env.example` e crie um arquivo` .env` com e-mail e as credenciais Redis
 -   Para executar use `yarn dev` e ` yarn queue` para iniciar o servidor e as filas em background
+
+#### 🌐 Rotas
+
+- Servidor - Exemplo: http://localhost:8080
+- Dashboard bull-board - Exemplo: http://localhost:8080/admin/queues
