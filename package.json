@@ -10,6 +10,8 @@
     "queue": "nodemon src/queue.js"
   },
   "dependencies": {
+    "@sentry/node": "^5.29.0",
+    "@sentry/tracing": "^5.29.0",
     "bull": "3.11.0",
     "bull-board": "0.5.0",
     "dotenv": "^8.2.0",

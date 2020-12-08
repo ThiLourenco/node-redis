@@ -1,25 +1,27 @@
-### Trabalhando em segundo plano em Node.js com Redis.
+### Working in the background with Node.js and Redis
 
-Cadastro de usuário e envio de e-mail de confirmação de cadastro como tarefa em background utilizando node.js e redis.
+User registration and sending confirmation email as a background task.
 
-#### :rocket: Tecnologias
+#### :rocket: Technologies
 - [Express](https://expressjs.com/pt-br/) 
 - [Bull](https://optimalbits.github.io/bull/)
+- [Nodemailer](https://nodemailer.com/about/)
+- [Sentry](https://sentry.io/)
 
-#### 💻 Pré-requisitos
+#### 💻 Prerequisites
 - [Node.js](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/pt-BR/docs/install)
 - [Redis](https://redis.io/)
 
-####  🍃 Iniciando
+####  🍃 Starting
 
--   Clone o repositório
--   Entre na pasta `node-redis`
--   Executar `yarn` ou ` install` npm para instalar as dependências
--   Copie o arquivo `.env.example` e crie um arquivo` .env` com e-mail e as credenciais Redis
--   Para executar use `yarn dev` e ` yarn queue` para iniciar o servidor e as filas em background
+-   Clone the repository
+-   Enter the folder `node-redis`
+-   Run `yarn` or  install `npm` to install dependencies
+-   Copy the file `.env.example` and create new file `.env` with email and Redis credentials
+-   To run, use `yarn dev` and ` yarn queue` to start the server and queues in the background.
 
 #### 🌐 Rotas
-
-- Servidor - Exemplo: http://localhost:8080
-- Dashboard bull-board - Exemplo: http://localhost:8080/admin/queues
+Example using port 8080:
+- Server / method post - http://localhost:8080/users
+- Dashboard bull-board - http://localhost:8080/admin/queues
